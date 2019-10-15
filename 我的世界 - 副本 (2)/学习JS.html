@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<!--<script type="text/javascript" src="学习JS.js">
+			
+		</script>
+<p id="JS1">Hello</p>
+<script type="text/javascript">
+	document.getElementById("JS1").innerHTML="网址"导致显示的是网址而不是Hello的原因
+</script>
+		<script>
+			var i1=1
+			var i2=3
+			var i4=i1+i2
+			document.write(i4)
+
+		</script>-->
+		<!--<p>JS3=1   JS4=2  JS3+JS4=?</p>
+		<p id="sumid"></p>
+		<button onclick="mysum()">结果</button>
+		<script>
+			function mysum()
+			{
+			var JS3=1
+			var JS4=2
+			var JS5=JS3+JS4
+			document.getElementById("sumid").innerHTML=JS5
+			}-->
+			<!--<script>
+				var JS6=8
+				if(JS6>9){
+					document.write("我喜欢让JS6=10")
+					
+				}
+				else if(JS6<9){
+				document.write("我就喜欢让JS6<9")}
+				else if(JS6=9){
+					document.write("我就喜欢让JS6=9")
+				}
+				
+				
+				
+				
+				
+			</script>-->
+			
+		<!--<script>
+			var JS7=3
+			switch (JS7){
+				case 1:
+				document.write("JS7=1")
+				break
+				case 2:
+				document.write("JS7=2")
+				break
+				default :
+				document.write("条件不满足")
+				
+			}
+		</script>-->
+		<style type="text/css">
+			body{
+				background:url(1.jpg)
+			}
+		</style>
+		<!--<script>
+			var JS8=[1,2,3,4,5,6]
+			document.write(JS8[1])
+			
+			
+			
+			
+		</script>-->
+		<!--<script>
+			var JS9=[1,2,3,4,5,6]
+			for(var JS10=0;JS10<6;JS10++)
+{document.write(JS9[JS10] +"、")}			
+			
+		</script>-->
+		<!--<script>
+			var JS11=2
+			while(JS11<10){
+				document.write("JS11="+JS11+"<br/>")
+				JS11++
+			}
+		</script>-->
+		<!--<script>
+			for(var JS12=0;JS12<10;JS12++){
+			if(JS12==5){
+				continue
+			}
+			document.write("JS12="+JS12+"<br/>")
+			
+			}
+			
+		</script>-->
+		<!--<script type="text/javascript">
+			function demo(JS13,JS14){
+				var sum = JS13+JS14
+				return sum
+			}
+			var JS15 = demo(10,10)
+			var JS16	=demo(20,20)
+			alert(JS15)
+			alert(JS16)
+		</script>-->
+		<!--<script type="text/javascript">
+			
+			function demo(){
+				var JS17=1
+			var JS18=2
+			var sum1=JS17+JS18
+			alert(sum1)
+			}
+			//demo()//函数必须单独调用出来才能弹框
+		
+		</script>
+		<form>
+			<input type="button" value="计算" onclick="demo()" />
+		</form>
+		//另一种方法：<button onclick="demo()">计算</button>-->
+		<!--<script>
+			function demo(JS19,JS20){
+			var	sum =JS19+JS20 
+				alert(sum)
+			}
+			demo(100,100)
+			
+		</script>-->
+	<!--	<script type="text/javascript">
+			function demo(name,age1){
+				alert("Hello:"+name+",你的年龄是："+age1)
+			}<button onclick="demo('master','300')">点击</button>
+	
+	</script>-->
+	<!--<script type="text/javascript">
+		function demo(){
+			alert("你学会了吗？")
+			return "学会了"   //即返回填充，先出现“你学会了吗”，再返回填充第二次弹出“学会了，233”
+		}
+		var JS21 =demo()+"233"
+		alert(JS21)
+	</script>-->
+	<!--<p id="ppii"></p>
+	<<script type="text/javascript">
+		function demo(JS22,JS23){
+			if(JS22>JS23){
+				return "YES"
+			}
+			else{
+				return "NOT"
+				
+			}
+				}
+			var JS24 = demo(100,80)
+			alert(JS24)>
+	
+	document.getElementById("ppii").innerHTML=demo(100,80)//此为打印在网页上
+	</script>-->
+	<!--<form>
+		<input type="text" id="JS25" />
+		<input type="button" id="JS26" value="提交" onclick="demo()" />
+	</form>
+	<script type="text/javascript">
+	function demo(){
+		try {
+			var JS27 = document.getElementById("JS25").value
+			if(JS27=="")
+			throw "此处不能为空"
+		}catch (err){
+			alert(err)
+		}
+	}
+		
+		
+		
+	</script>-->
+	<!--<button onclick="demo()">点击</button>
+	<script type="text/javascript">
+		function demo(){
+			alert("Hello")
+		}
+	</script>-->
+	<!--<div class="JS29" onmouseout="onOut(this)" onmouseover="onOver(this)">
+		
+	</div>
+	<script type="text/javascript">
+		function onOut(JS30){
+			JS30.innerHTML="Hello"
+		}
+		function onOver(JS30){
+			JS30.innerHTML="World"
+		}
+	</script>
+	<style type="text/css">
+		.JS29{
+			background-color: #0000FF;
+			height: 100px;
+			width: 100px;
+			
+		}
+	</style>
+	<form>
+		<input type="text" onchange="changeDemo(this)" />
+	
+	</form>
+	<script type="text/javascript">
+		function changeDemo(JS31){
+			alert("已输入相关内容")
+			
+		}//另一种方法：<input type="text"  onclick="alert('Hello')"/>
+	
+	</script>-->
+<!--<form>
+	<input type="text" onselect="changeDemo2(this)"  onfocus="changeDemo3(this)"/>
+</form>
+<script type="text/javascript">
+	function changeDemo2(JS32){
+		JS32.style.background="gray"
+	}
+	function changeDemo3(JS33){
+		JS33.style.background="red"
+	}
+	function msg(){
+		alert("加载完成")
+	}
+</script>-->
+
+	</body>
+	
+</html>
